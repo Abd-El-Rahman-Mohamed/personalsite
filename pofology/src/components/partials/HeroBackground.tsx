@@ -16,7 +16,6 @@ const HeroBackground = () => {
   return (
     <>
       <FiBarChart2 size={30} className="absolute  top-60 left-10 hidden text-teal-500 sm:inline-block md:left-24" />
-      <FiBell size={30} className="animate-bell  absolute top-28 right-2/3 hidden text-red-500 sm:inline-block" />
       <FiCode size={30} className="absolute  top-48 right-1/2 hidden animate-bounce text-indigo-500 sm:inline-block" />
       <FiPieChart
         size={30}

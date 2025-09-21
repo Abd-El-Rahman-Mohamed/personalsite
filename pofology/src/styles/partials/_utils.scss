@@ -10,11 +10,6 @@
   animation-duration: 5s;
 }
 
-.animate-bell {
-  animation: ring 4s 0.3s ease-in-out infinite;
-  transform-origin: 50% 4px;
-}
-
 @keyframes move {
   0% {
     transform: translateX(0);

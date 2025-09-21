@@ -59,13 +59,6 @@ const Menu = () => {
         >
           {theme === Theme.LIGHT ? <BsMoonStars size={20} /> : <BsSun size={20} />}
         </button>
-        <button
-          type="button"
-          onClick={() => setSidebarOpen(!sidebarOpen)}
-          className="ml-5 flex text-gray-700 dark:text-gray-200 md:hidden"
-        >
-          <HiMenuAlt3 size={24} />
-        </button>
       </div>
 
       {/* Mobile menu */}

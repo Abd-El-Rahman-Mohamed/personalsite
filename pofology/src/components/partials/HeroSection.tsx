@@ -47,7 +47,7 @@ const HeroSection = () => {
             </a>
           </Link>
         </div>
-        <Button className="mt-5 px-8">Contact Me</Button>
+        <Button className="mt-5 px-8"><a href="mailto:abdo@abdelrahmantechcs.com">Contact Me</a></Button>
       </div>
 
     </div>
