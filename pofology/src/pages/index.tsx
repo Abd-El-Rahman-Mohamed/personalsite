@@ -1,11 +1,6 @@
-import ContactSection from '@/components/partials/ContactSection';
 import HeroSection from '@/components/partials/HeroSection';
 import AppLayout from '@/layouts/AppLayout';
-import type { GetServerSideProps, NextPage } from 'next';
-
-// type Props = {
-//   experiences: ;
-// }
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (

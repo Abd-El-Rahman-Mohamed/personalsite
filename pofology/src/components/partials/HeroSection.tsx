@@ -22,27 +22,27 @@ const HeroSection = () => {
         </div>
         <div className="mt-4  flex gap-5">
           <Link href="https://www.instagram.com/abdelrahmantech/">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500" target="_blank" rel="noopener noreferrer">
               <FiInstagram size={25} />
             </a>
           </Link>
           <Link href="https://x.com/AbdoDomain">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500" target="_blank" rel="noopener noreferrer">
               <FiTwitter size={25} />
             </a>
           </Link>
           <Link href="https://www.facebook.com/boda.mohama">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500" target="_blank" rel="noopener noreferrer">
               <FiFacebook size={25} />
             </a>
           </Link>
           <Link href="https://www.linkedin.com/in/abd-el-rahaman-mohamed-935444280/">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500" target="_blank" rel="noopener noreferrer">
               <FiLinkedin size={25} />
             </a>
           </Link>
           <Link href="https://github.com/Abd-El-Rahman-Mohamed">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
+            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500" target="_blank" rel="noopener noreferrer">
               <FiGithub size={25} />
             </a>
           </Link>
