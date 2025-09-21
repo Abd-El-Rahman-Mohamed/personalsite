@@ -22,38 +22,26 @@ const Menu = () => {
         </Link>
         <ul className="ml-auto hidden items-center md:flex">
           <li>
-            <Link href="/works">
+            <Link href="/">
               <a
                 className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
+                  'hidden inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
                   {
                     'text-primary-500': router.asPath == '/works',
                   }
                 )}
               >
-                Works
+                Home
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/blog">
-              <a
-                className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
-                  {
-                    'text-primary-500': router.asPath == '/blog',
-                  }
-                )}
-              >
-                Blog
-              </a>
-            </Link>
           </li>
           <li>
             <Link href="/contact">
               <a
                 className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
+                  'hidden inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
                   {
                     'text-primary-500': router.asPath == '/contact',
                   }
@@ -133,26 +121,6 @@ const Menu = () => {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
-                  <Link href="/works">
-                    <a
-                      className={classNames(
-                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600',
-                        { 'text-primary-500': router.asPath == '/works' }
-                      )}
-                    >
-                      Works
-                    </a>
-                  </Link>
-                  <Link href="/blog">
-                    <a
-                      className={classNames(
-                        { 'text-primary-500': router.asPath == '/blog' },
-                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600'
-                      )}
-                    >
-                      Blog
-                    </a>
-                  </Link>
                   <Link href="/contact">
                     <a
                       className={classNames(

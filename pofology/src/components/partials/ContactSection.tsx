@@ -3,12 +3,10 @@ import React from 'react';
 import Button from '@/components/form/Button';
 import Input from '@/components/form/Input';
 import TextArea from '@/components/form/Textarea';
-import SectionTitle from '@/components/shared/SectionTitle';
 
 const ContactSection = () => {
   return (
     <>
-      <SectionTitle>Get In Touch</SectionTitle>
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         <div className="relative h-48">
           <Image src="/images/map.svg" layout="fill" className="dark:invert" alt="map" />
