@@ -13,6 +13,7 @@ const HeroSection = () => {
       <div className="flex flex-col items-center">
         <div className="overflow-hidden rounded-full">
           <Image src="/images/abdelrahmantechcs.jpeg" width={180} height={180} alt="avatar" />
+          <Image src="/images/abdelrahmantechcs.svg" width={180} height={180} alt="avatar" />
         </div>
         <h1 className="mt-4 text-3xl font-bold ">AbdelrahmanTechCS</h1>
         <div className="mt-2 flex gap-1">
